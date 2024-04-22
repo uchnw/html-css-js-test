@@ -1,13 +1,20 @@
 body {
   background-color: #000;
+  color: #00f;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  margin-top: 50px;
 }
 
 .sentiment-widget {
   display: flex;
   justify-content: space-between;
-  color: #00f;
   font-size: 2rem;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 80%;
 }
 
@@ -17,4 +24,18 @@ body {
 
 .emoji:hover {
   transform: scale(1.2);
+}
+
+.descriptions {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.descriptions p {
+  text-align: center;
+  margin-top: 5px;
 }
